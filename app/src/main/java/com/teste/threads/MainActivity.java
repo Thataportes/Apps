@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         public void run() {
             for (int i = 0; i<= 15; i++){
 
-                Log.d("Thread","contador:" + i);
+                Log.d("Thread","contadorr:" + i);
                 botaoInicar.setText("contador:" + i);
 
                 runOnUiThread(new Runnable() {
